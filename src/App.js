@@ -13,7 +13,6 @@ function App() {
   let productDetailItem = useSelector((state) => state.itemToDisplay);
 
   const url = "https://my-json-server.typicode.com/prem7979/data/db";
-
   const dispatch = useDispatch();
 
   useEffect(() => {
