@@ -30,7 +30,7 @@ export default function Cart({ item }) {
   return (
     <>
       {/* items added to Cart  */}
-      <div className="d-flex container-sm p-1 bg-white  gap-5">
+      <div className="d-flex container-sm p-1 bg-grey  gap-5">
         {/* left part  */}
         <img
           src={item.thumbnail}

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Nav() {
   const navigate = useNavigate();
   let total = useSelector((state) => state.totalCart);
-return (
+  return (
     <nav
       className="navbar navbar-expand-lg p-4 align-items-center"
       style={style.nav}
@@ -43,8 +43,8 @@ return (
               src="https://cdn-icons-png.flaticon.com/512/4290/4290854.png"
               alt="error"
               width={"40rem"}
-            onClick={() => navigate("/cart")}
-            style={{cursor:"pointer"}}
+              onClick={() => navigate("/cart")}
+              style={{ cursor: "pointer" }}
             />
             {total ? (
               <p
@@ -78,7 +78,7 @@ const style = {
   },
   navHead: {
     fontFamily: "var(--fontStyle)",
-    color: "#f47289",
+    color: "#FFFFFF",
   },
 };
 // #9375b7
